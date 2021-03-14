@@ -1,0 +1,44 @@
+{
+  "id": "2387462",
+  "name": "移动端",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14835599",
+      "name": "右箭头",
+      "font_class": "arrowRight",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "12754144",
+      "name": "上箭头",
+      "font_class": "shangjiantou_huaban",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "6546754",
+      "name": "上箭头",
+      "font_class": "down",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "15315354",
+      "name": "关 闭",
+      "font_class": "guanbi",
+      "unicode": "e727",
+      "unicode_decimal": 59175
+    },
+    {
+      "icon_id": "17543573",
+      "name": "菜单",
+      "font_class": "toggle",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

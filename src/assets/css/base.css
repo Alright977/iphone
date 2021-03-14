@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 1.333335vw;
+}
+body {
+  background-color: #f3f4f5;
+  font-family: PingFangSC-Regular, PingFang SC;
+}
+.btn {
+  width: 15.4rem;
+  height: 5.2rem;
+  line-height: 5.2rem;
+  text-align: center;
+  border: 0.1rem solid #50c19a;
+}
+.btn a {
+  text-decoration: none;
+  width: 10.9rem;
+  height: 2.4rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #50c19a;
+}
+.banner {
+  position: relative;
+  height: 30rem;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.banner h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 5rem;
+  font-size: 3.6rem;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 5rem;
+}
+.index img {
+  width: 74.9rem;
+  height: 37.3rem;
+  object-fit: cover;
+}
+.index .medical-card {
+  position: relative;
+  left: 3.2rem;
+  top: -9.7rem;
+  width: 69.2rem;
+  height: 41.8rem;
+  background-color: #ffffff;
+}
+.index .medical-card h6 {
+  position: absolute;
+  top: 3.7rem;
+  left: 5.2rem;
+  height: 4.5rem;
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #333333;
+  line-height: 4.5rem;
+  overflow: hidden;
+}
+.index .medical-card p {
+  position: absolute;
+  top: 5.2rem;
+  left: 2.5rem;
+  width: 62rem;
+  height: 24.5rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #666666;
+  line-height: 4.6rem;
+  overflow-y: scroll;
+}
+.index .medical-card p::-webkit-scrollbar {
+  display: none;
+}
+.index .service .service-card {
+  margin-bottom: 2.6rem;
+  width: 33.4rem;
+  height: 40.2rem;
+  background-color: #ffffff;
+}
+.index .service .service-card img {
+  margin-top: 3.1rem;
+  margin-left: 13.7rem;
+  width: 5.6rem;
+  height: 5.2rem;
+  object-fit: cover;
+}
+.index .service .service-card h6 {
+  text-align: center;
+  margin-top: 1.8rem;
+  height: 3.7rem;
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: #333333;
+  line-height: 3.7rem;
+}
+.index .service .service-card .card-content {
+  text-align: center;
+  margin-top: 1.6rem;
+  height: 12rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #999999;
+  line-height: 4rem;
+  overflow: hidden;
+}
+.index .service .service-card .btn {
+  margin-top: 4.2rem;
+  margin-left: 8.8rem;
+}
+.index .current-card {
+  margin-top: 3rem;
+  height: 56.8rem;
+  width: 69rem;
+  margin-left: 3.1rem;
+  background-color: #ffffff;
+}
+.index .current-card img {
+  margin-top: 0;
+  width: 100%;
+  height: 27.2rem;
+  object-fit: cover;
+}
+.index .current-card h6 {
+  margin-left: 2.4rem;
+  margin-top: 2.7rem;
+  height: 3.4rem;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #333333;
+  line-height: 3.2rem;
+  overflow: hidden;
+}
+.index .current-card .p-1 {
+  margin-left: 2.4rem;
+  margin-top: 1.5rem;
+  height: 1.8rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #999999;
+  line-height: 1.8rem;
+}
+.index .current-card .p-2 {
+  margin-left: 2.4rem;
+  margin-top: 0.8rem;
+  height: 9.2rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #666666;
+  line-height: 4.6rem;
+  overflow: hidden;
+}
+.index .current-card .btn {
+  margin-left: 2.4rem;
+  margin-top: 2.5rem;
+}
+.about h5 {
+  margin-left: 6.3rem;
+  width: 44.7rem;
+  height: 3.6rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #333333;
+  line-height: 4.8rem;
+}
+.about h4 {
+  margin-left: 6.3rem;
+  width: 20rem;
+  height: 3.8rem;
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #333333;
+  line-height: 4.8rem;
+}
+.rement h5 {
+  margin-left: 4.3rem;
+  width: 44.7rem;
+  height: 3.6rem;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #333333;
+  line-height: 4.8rem;
+}
+.rement h4 {
+  margin-left: 4.3rem;
+  margin-top: 0.9rem;
+  width: 20rem;
+  height: 3.8rem;
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #333333;
+  line-height: 4.8rem;
+}
