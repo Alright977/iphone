@@ -30,6 +30,7 @@ export default {
       .then((res) => {
         if (res.status) {
           this.centerList = res.data.data
+          this.count = res.data.count
         } else {
           this.$toast.fail(res.message)
         }
@@ -50,11 +51,12 @@ export default {
       PageSize: 4,
       // 动态请求开关
       lock: false,
+      // 新闻总条数
+      count: null,
     }
   },
   methods: {
     detailClick(index) {
-      console.log('a')
       this.$router.push({
         path: '/detail',
         query: {
@@ -72,7 +74,7 @@ export default {
       // 距离底部的高度
       const bottomHeight = scollHeight - offsetHeight - scolltop
       // 判断数据是否请求完
-      if (this.centerList.length >= 20) {
+      if (this.centerList.length >= this.count) {
         return
       }
       if (bottomHeight < 5 && !this.lock) {
